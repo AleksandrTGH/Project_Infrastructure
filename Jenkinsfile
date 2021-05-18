@@ -7,7 +7,7 @@ pipeline {
         CLASS           = "GitSCM"
         BRANCH          = "main"
         GIT_CREDENTIALS = "GitHub_SSH"
-        GIT_URL         = "git@github.com:AleksandrTGH/Test_Infrastructure.git" // to change
+        GIT_URL         = "git@github.com:AleksandrTGH/Project_Infrastructure.git"
 
         // Terraform stages
         REGION          = "us-east-1"
